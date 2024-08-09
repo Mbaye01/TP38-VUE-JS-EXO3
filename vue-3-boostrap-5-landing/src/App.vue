@@ -1,15 +1,15 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <BootstrapComponent msg="Welcome to Your Vue.js App"/>
+  <navbar msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import BootstrapComponent from './components/Boostrap-5-integration.vue'
+import navbar from './components/Boostrap-5-integration.vue'
 
 export default {
   name: 'App',
   components: {
-    BootstrapComponent
+    navbar
   }
 }
 </script>
@@ -21,6 +21,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
